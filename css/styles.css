@@ -1,0 +1,373 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f5f7fa;
+}
+.main-container {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1100px;
+  background-color: #fff;
+  margin: 40px auto 0 auto;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Main content section */
+
+.main-content-section {
+  padding: 90px 90px;
+  width: calc(100% - 370px);
+}
+.main-content-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin: 0 0 20px 0;
+}
+
+/* About me section */
+
+.about-me-section {
+  margin: 0 0 50px 0;
+}
+.about-me-profession {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000;
+  margin: 0 0 30px 0;
+}
+.about-me-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000000;
+  padding-bottom: 0;
+  height: 30px;
+  width: 370px;
+}
+.about-me-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 25px;
+  color: #595959;
+  margin: 30px 0 0 0;
+  width: 250px;
+}
+
+/* My work-expirience section */
+
+.my-work-experience-section {
+  margin: 0 0 50px 0;
+}
+.my-work-experience-company {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #862a56;
+  margin-left: 5px;
+}
+.my-work-experience-position {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin: 0 0 10px 0;
+}
+.my-work-experience-period {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin: 0 0 10px 0;
+}
+.my-work-experience-divider {
+  color: #000000;
+  margin: 0 10px 0 10px;
+}
+.my-work-experience-duties {
+  padding: 0 0 0 18px;
+}
+.my-work-experience-duty {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  width: 525px;
+}
+.my-work-experience-company-block {
+  margin: 0 15px 0 0;
+}
+
+/* My education section */
+
+.my-education-university {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #862a56;
+  margin: 0 0 10px 0;
+}
+.my-education-speciality {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin: 0 0 10px 0;
+}
+.my-education-period {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin: 0 0 10px 0;
+}
+.my-education-period-divider {
+  color: #000000;
+  margin: 0 10px 0 10px;
+}
+
+/* sidebar section */
+
+.sidebar-section {
+  background-color: #862a56;
+  width: 370px;
+  padding: 40px 0;
+}
+.contacts-section,
+.tech-skills-section,
+.soft-skills-section,
+.language-skills-section,
+.certificates-section {
+  margin: 0 0 0 40px;
+}
+.sidebar-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #ffe1c6;
+  margin: 0 0 10px 10px;
+  padding-top: 25px;
+}
+
+/* contacts section */
+
+.contacts-section-type {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 5px;
+  color: #ffe1c6;
+  margin: 5px 5px 0 10px;
+}
+.contacts-section-link {
+  color: #fff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 10px;
+}
+
+/* skills sections */
+
+.skills-list {
+  padding: 0 0 0 27px;
+}
+.skills-item {
+  color: #ffe1c6;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 25px;
+  padding-bottom: 0;
+}
+.skills-item-text {
+  color: #fff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+.certificates-section-link {
+  color: #fff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 5px;
+}
+
+/* data tool-tips */
+
+[data-tooltip] {
+  position: relative;
+  line-height: 5px;
+}
+[data-tooltip]::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  width: 90px;
+  margin: 0 0 0 10px;
+  background: #ffe1c6;
+  color: #862a56;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  line-height: 20px;
+  padding: 0.1em;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  pointer-events: none;
+  opacity: 0;
+  transition: 1s;
+}
+[data-tooltip]:hover::after {
+  opacity: 1;
+}
+
+[data-tooltip1] {
+  position: relative;
+  line-height: 5px;
+}
+[data-tooltip1]::after {
+  content: attr(data-tooltip1);
+  position: absolute;
+  width: 100px;
+  margin: 0 0 10px 410px;
+  background: #fff;
+  color: #862a56;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  line-height: 20px;
+  padding: 0.1em;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  pointer-events: none;
+  opacity: 0;
+  transition: 7s;
+}
+[data-tooltip1]:hover::after {
+  opacity: 1;
+}
+
+[data-tooltip2] {
+  position: relative;
+  line-height: 5px;
+}
+[data-tooltip2]::after {
+  content: attr(data-tooltip2);
+  position: absolute;
+  width: 90px;
+  margin: 0 0 0 80px;
+  background: #ffe1c6;
+  color: #862a56;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  line-height: 20px;
+  padding: 0.1em;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  pointer-events: none;
+  opacity: 0;
+  transition: 1s;
+}
+[data-tooltip2]:hover::after {
+  opacity: 1;
+}
+
+/* Rating-button */
+
+.like-button {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 40px;
+  height: 40px;
+  font-style: bold;
+  font-size: 40px;
+  background: #fff;
+  color: rgb(107, 5, 5);
+  margin: 60px 0 10px 5px;
+  cursor: pointer;
+}
+
+.text-button {
+  margin: 0 50px 0 50px0;
+  width: 60px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-style: italic;
+  color: #fff;
+}
+
+.rating-button {
+  margin: 80px 5px 0 140px;
+}
+
+/* Scroll Indicator */
+
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+.progress-container {
+  width: 100%;
+  height: 10px;
+  background: #ccc;
+}
+.progress-bar {
+  height: 10px;
+  background: #862a56;
+  width: 0%;
+}
+.text-scroll {
+  color: #862a56;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  line-height: 20px;
+  padding-bottom: 0;
+}
+
+/* Flags */
+
+.flag-icon {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  width: 1.33333333em;
+  line-height: 1em;
+}
+.flag-icon:before {
+  content: "\00a0";
+}
+.flag-icon-ru {
+  background-image: url(../flags/ru.svg);
+}
+.flag-icon-gb {
+  background-image: url(../flags/gb.svg);
+}
+.flag-icon-ua {
+  background-image: url(../flags/ua.svg);
+}
